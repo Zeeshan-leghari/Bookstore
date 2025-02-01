@@ -13,7 +13,7 @@ const BookCard = ({ book }) => {
     <div className="card w-[350px]  font-bold text-lg  shadow-xl hover:shadow-2xl  hover:scale-105 transition-transform duration-200">
       <figure className="px-4 pt-4">
         <img
-          src={book.image}
+          src={book.image || "https://img.freepik.com/free-vector/stack-colorful-books_74855-314.jpg?ga=GA1.1.376241888.1738314438&semt=ais_hybrid_sidr"}
           alt={book.name}
           className=" rounded-lg h-64 object-cover  w-full"
           onError={(e) => {

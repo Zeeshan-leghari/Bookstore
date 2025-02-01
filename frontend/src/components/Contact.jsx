@@ -39,8 +39,7 @@ const Contact = () => {
               </a>
             </div>
           </div>
-
-  <div className="space-y-4">
+          <div className="space-y-4">
             <h2 className="text-xl font-semibold text-gray-800 flex items-center">
               <span className="w-8 h-1 bg-blue-600 mr-4 rounded-full"></span>
               Follow Us
@@ -73,7 +72,8 @@ const Contact = () => {
                 </a>
               ))}
             </div>
-          </div>        </div>
+          </div>{" "}
+        </div>
       </div>
 
       <form className="space-y-6 p-8  rounded-2xl shadow-lg transform transition-all duration-300 hover:shadow-xl">
